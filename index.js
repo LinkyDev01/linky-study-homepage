@@ -3,6 +3,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     applyButton.addEventListener('click', function() {
         // 신청하기 버튼 클릭 시 동작
-        window.location.replace("https://study-apply.vercel.app/")
+        window.location.href("https://study-apply.vercel.app/")
     });
 });
